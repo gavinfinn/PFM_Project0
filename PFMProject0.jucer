@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="wrrAma" name="PFMProject0" projectType="audioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" pluginCharacteristicsValue="pluginIsSynth">
   <MAINGROUP id="ZQT6hH" name="PFMProject0">
     <GROUP id="{597D6A0B-FAE2-29DB-8C07-6A4C604E4AB5}" name="Source">
       <FILE id="FE2B1R" name="PluginProcessor.cpp" compile="1" resource="0"
@@ -32,7 +32,7 @@
   <EXPORTFORMATS>
     <VS2022 targetFolder="Builds/VisualStudio2022">
       <CONFIGURATIONS>
-        <CONFIGURATION isDebug="1" name="Debug" targetName="PFMProject0"/>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="PFMProject0" enablePluginBinaryCopyStep="1"/>
         <CONFIGURATION isDebug="0" name="Release" targetName="PFMProject0"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
