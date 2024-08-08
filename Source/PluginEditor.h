@@ -6,6 +6,11 @@
   ==============================================================================
 */
 
+/*
+TODO:
+click anywhere on the window and play a note
+if you click and drag, the pitch changes
+*/
 #pragma once
 
 #include <JuceHeader.h>
