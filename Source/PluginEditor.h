@@ -10,6 +10,7 @@
 TODO:
 click anywhere on the window and play a note
 if you click and drag, the pitch changes
+should we play a sound?
 */
 #pragma once
 

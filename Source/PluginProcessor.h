@@ -5,6 +5,12 @@
 
   ==============================================================================
 */
+/*
+TODO:
+click anywhere on the window and play a note
+if you click and drag, the pitch changes
+should we play a sound ?
+*/
 
 #pragma once
 
@@ -54,6 +60,7 @@ public:
     void setStateInformation (const void* data, int sizeInBytes) override;
 
 private:
+    bool shouldPlaySound = true;
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (PFMProject0AudioProcessor)
 };
